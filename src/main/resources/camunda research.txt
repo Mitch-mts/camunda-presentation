@@ -1,0 +1,44 @@
+    Camunda Research
+
+1. What is camunda
+- its an open source workflow and decision automation platform that helps organisations automate their business processes and decisions
+-it provides a suite of tools for modeling , executing and optimising business processes and rules 
+
+2. Features of camunda 
+- business process model and notation (bpmn), this is used by camunda process modeling. BPMN is a standardised graphical notation that is easy to understand and allows 
+you to define end-to-end business process
+- decision model and notation (dmn), this is used by camunda for modeling and automating  business rules
+- case management model and notation (cmmn), this is used by camunda for case management, enabling the modeling of non-linear, event driven processes
+- execution engine, camunda includes a powerful process and decision engine that can execute bpmn processes, dmn decisions and cmmn cases
+- rest api, camunda provides a rest api that allows integration with other systems and services, this makes it easy to start processes, complete tasks and retrieve process data progarmatically
+- task management, camunda comes with a task list for managing user tasks. It allows users to claim , complete and delegate tasks
+- cockpit, its a web app for monitoring and administrating process instances and deployments
+- modeler, its a desktop app for creating bpmn, cmmn and dmn diagrams
+
+3. why camunda (benefits)
+- open source
+- standards based
+- powerful execution engine
+- comprehensive toolset
+- integration capabilities
+- community and support
+- flexibility and control
+- proven track record
+
+4. language technologoes used in camunda
+- Java (primary language), camunda is built in java and its core engine is designed to be embedded in java apps
+- javascript
+- python
+- c#/.net
+- groovy
+- kotlin
+- ruby
+- php
+- usually the integration wit these languages/techs is through the camunda rest apis
+
+5. running a camunda app
+- create a camunda app via camunda initialiser, https://start.camunda.com/ just we do with java spring boot apps with spring initialiser https://start.spring.io/
+- main modules on the camunda initialiser rest api (provides access to all relevent interfaces of the camunda engine), 
+webapps (the provision of camunda cockpit for accessing deployed bpmn processes and dmn decisions and monitoring them),
+spin (xml and json) (mainly used for simple xml and json processing on the jvm targeting java and jvm scripting languages such as groovy, jruby, jython, javascript and java expression language)
+- then the credentials required beow are for accessing the cockpit once the app is built and run
